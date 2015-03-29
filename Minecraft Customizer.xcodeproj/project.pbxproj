@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20C189C1AC8930F00B9F23F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C189B1AC8930F00B9F23F /* AppDelegate.swift */; };
+		A20C189F1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A20C189D1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld */; };
+		A20C18A11AC8930F00B9F23F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C18A01AC8930F00B9F23F /* ViewController.swift */; };
+		A20C18A61AC8930F00B9F23F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20C18A51AC8930F00B9F23F /* Images.xcassets */; };
+		A20C18A91AC8930F00B9F23F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20C18A71AC8930F00B9F23F /* LaunchScreen.xib */; };
+		A20C18B51AC8930F00B9F23F /* Minecraft_CustomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C18B41AC8930F00B9F23F /* Minecraft_CustomizerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A20C18AF1AC8930F00B9F23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20C188E1AC8930E00B9F23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20C18951AC8930F00B9F23F;
+			remoteInfo = "Minecraft Customizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20C18961AC8930F00B9F23F /* Minecraft Customizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minecraft Customizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20C189A1AC8930F00B9F23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20C189B1AC8930F00B9F23F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20C189E1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Minecraft_Customizer.xcdatamodel; sourceTree = "<group>"; };
+		A20C18A01AC8930F00B9F23F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A20C18A51AC8930F00B9F23F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A20C18A81AC8930F00B9F23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A20C18AE1AC8930F00B9F23F /* Minecraft CustomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minecraft CustomizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20C18B31AC8930F00B9F23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20C18B41AC8930F00B9F23F /* Minecraft_CustomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_CustomizerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20C18931AC8930F00B9F23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20C18AB1AC8930F00B9F23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20C188D1AC8930E00B9F23F = {
+			isa = PBXGroup;
+			children = (
+				A20C18981AC8930F00B9F23F /* Minecraft Customizer */,
+				A20C18B11AC8930F00B9F23F /* Minecraft CustomizerTests */,
+				A20C18971AC8930F00B9F23F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A20C18971AC8930F00B9F23F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20C18961AC8930F00B9F23F /* Minecraft Customizer.app */,
+				A20C18AE1AC8930F00B9F23F /* Minecraft CustomizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A20C18981AC8930F00B9F23F /* Minecraft Customizer */ = {
+			isa = PBXGroup;
+			children = (
+				A20C189B1AC8930F00B9F23F /* AppDelegate.swift */,
+				A20C18A01AC8930F00B9F23F /* ViewController.swift */,
+				A20C18A51AC8930F00B9F23F /* Images.xcassets */,
+				A20C18A71AC8930F00B9F23F /* LaunchScreen.xib */,
+				A20C189D1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld */,
+				A20C18991AC8930F00B9F23F /* Supporting Files */,
+			);
+			path = "Minecraft Customizer";
+			sourceTree = "<group>";
+		};
+		A20C18991AC8930F00B9F23F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20C189A1AC8930F00B9F23F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A20C18B11AC8930F00B9F23F /* Minecraft CustomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A20C18B41AC8930F00B9F23F /* Minecraft_CustomizerTests.swift */,
+				A20C18B21AC8930F00B9F23F /* Supporting Files */,
+			);
+			path = "Minecraft CustomizerTests";
+			sourceTree = "<group>";
+		};
+		A20C18B21AC8930F00B9F23F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20C18B31AC8930F00B9F23F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A20C18951AC8930F00B9F23F /* Minecraft Customizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20C18B81AC8930F00B9F23F /* Build configuration list for PBXNativeTarget "Minecraft Customizer" */;
+			buildPhases = (
+				A20C18921AC8930F00B9F23F /* Sources */,
+				A20C18931AC8930F00B9F23F /* Frameworks */,
+				A20C18941AC8930F00B9F23F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minecraft Customizer";
+			productName = "Minecraft Customizer";
+			productReference = A20C18961AC8930F00B9F23F /* Minecraft Customizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A20C18AD1AC8930F00B9F23F /* Minecraft CustomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20C18BB1AC8930F00B9F23F /* Build configuration list for PBXNativeTarget "Minecraft CustomizerTests" */;
+			buildPhases = (
+				A20C18AA1AC8930F00B9F23F /* Sources */,
+				A20C18AB1AC8930F00B9F23F /* Frameworks */,
+				A20C18AC1AC8930F00B9F23F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20C18B01AC8930F00B9F23F /* PBXTargetDependency */,
+			);
+			name = "Minecraft CustomizerTests";
+			productName = "Minecraft CustomizerTests";
+			productReference = A20C18AE1AC8930F00B9F23F /* Minecraft CustomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A20C188E1AC8930E00B9F23F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Torchline Technology";
+				TargetAttributes = {
+					A20C18951AC8930F00B9F23F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A20C18AD1AC8930F00B9F23F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A20C18951AC8930F00B9F23F;
+					};
+				};
+			};
+			buildConfigurationList = A20C18911AC8930E00B9F23F /* Build configuration list for PBXProject "Minecraft Customizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A20C188D1AC8930E00B9F23F;
+			productRefGroup = A20C18971AC8930F00B9F23F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A20C18951AC8930F00B9F23F /* Minecraft Customizer */,
+				A20C18AD1AC8930F00B9F23F /* Minecraft CustomizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A20C18941AC8930F00B9F23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20C18A91AC8930F00B9F23F /* LaunchScreen.xib in Resources */,
+				A20C18A61AC8930F00B9F23F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20C18AC1AC8930F00B9F23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A20C18921AC8930F00B9F23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20C18A11AC8930F00B9F23F /* ViewController.swift in Sources */,
+				A20C189F1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld in Sources */,
+				A20C189C1AC8930F00B9F23F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20C18AA1AC8930F00B9F23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20C18B51AC8930F00B9F23F /* Minecraft_CustomizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A20C18B01AC8930F00B9F23F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20C18951AC8930F00B9F23F /* Minecraft Customizer */;
+			targetProxy = A20C18AF1AC8930F00B9F23F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A20C18A71AC8930F00B9F23F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20C18A81AC8930F00B9F23F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A20C18B61AC8930F00B9F23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A20C18B71AC8930F00B9F23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A20C18B91AC8930F00B9F23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Minecraft Customizer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A20C18BA1AC8930F00B9F23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Minecraft Customizer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A20C18BC1AC8930F00B9F23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Minecraft CustomizerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minecraft Customizer.app/Minecraft Customizer";
+			};
+			name = Debug;
+		};
+		A20C18BD1AC8930F00B9F23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Minecraft CustomizerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minecraft Customizer.app/Minecraft Customizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20C18911AC8930E00B9F23F /* Build configuration list for PBXProject "Minecraft Customizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20C18B61AC8930F00B9F23F /* Debug */,
+				A20C18B71AC8930F00B9F23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20C18B81AC8930F00B9F23F /* Build configuration list for PBXNativeTarget "Minecraft Customizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20C18B91AC8930F00B9F23F /* Debug */,
+				A20C18BA1AC8930F00B9F23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20C18BB1AC8930F00B9F23F /* Build configuration list for PBXNativeTarget "Minecraft CustomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20C18BC1AC8930F00B9F23F /* Debug */,
+				A20C18BD1AC8930F00B9F23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A20C189D1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A20C189E1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodel */,
+			);
+			currentVersion = A20C189E1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodel */;
+			path = Minecraft_Customizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A20C188E1AC8930E00B9F23F /* Project object */;
+}
