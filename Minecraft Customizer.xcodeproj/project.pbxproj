@@ -13,6 +13,11 @@
 		A20C18A61AC8930F00B9F23F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20C18A51AC8930F00B9F23F /* Images.xcassets */; };
 		A20C18A91AC8930F00B9F23F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20C18A71AC8930F00B9F23F /* LaunchScreen.xib */; };
 		A20C18B51AC8930F00B9F23F /* Minecraft_CustomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C18B41AC8930F00B9F23F /* Minecraft_CustomizerTests.swift */; };
+		A28230EB1AC89C5A0096A3DE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = A28230E11AC89C5A0096A3DE /* ioapi.c */; };
+		A28230EC1AC89C5A0096A3DE /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = A28230E31AC89C5A0096A3DE /* mztools.c */; };
+		A28230ED1AC89C5A0096A3DE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = A28230E51AC89C5A0096A3DE /* unzip.c */; };
+		A28230EE1AC89C5A0096A3DE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = A28230E71AC89C5A0096A3DE /* zip.c */; };
+		A28230EF1AC89C5A0096A3DE /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = A28230EA1AC89C5A0096A3DE /* SSZipArchive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,17 @@
 		A20C18AE1AC8930F00B9F23F /* Minecraft CustomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minecraft CustomizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20C18B31AC8930F00B9F23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20C18B41AC8930F00B9F23F /* Minecraft_CustomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_CustomizerTests.swift; sourceTree = "<group>"; };
+		A28230E01AC89C5A0096A3DE /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		A28230E11AC89C5A0096A3DE /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		A28230E21AC89C5A0096A3DE /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		A28230E31AC89C5A0096A3DE /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		A28230E41AC89C5A0096A3DE /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		A28230E51AC89C5A0096A3DE /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		A28230E61AC89C5A0096A3DE /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		A28230E71AC89C5A0096A3DE /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		A28230E81AC89C5A0096A3DE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		A28230E91AC89C5A0096A3DE /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		A28230EA1AC89C5A0096A3DE /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 				A20C18981AC8930F00B9F23F /* Minecraft Customizer */,
 				A20C18B11AC8930F00B9F23F /* Minecraft CustomizerTests */,
 				A20C18971AC8930F00B9F23F /* Products */,
+				A28230DD1AC89C5A0096A3DE /* Vendors */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +127,40 @@
 				A20C18B31AC8930F00B9F23F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28230DD1AC89C5A0096A3DE /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				A28230DE1AC89C5A0096A3DE /* SSZipArchive */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		A28230DE1AC89C5A0096A3DE /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				A28230DF1AC89C5A0096A3DE /* minizip */,
+				A28230E91AC89C5A0096A3DE /* SSZipArchive.h */,
+				A28230EA1AC89C5A0096A3DE /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		A28230DF1AC89C5A0096A3DE /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				A28230E01AC89C5A0096A3DE /* crypt.h */,
+				A28230E11AC89C5A0096A3DE /* ioapi.c */,
+				A28230E21AC89C5A0096A3DE /* ioapi.h */,
+				A28230E31AC89C5A0096A3DE /* mztools.c */,
+				A28230E41AC89C5A0096A3DE /* mztools.h */,
+				A28230E51AC89C5A0096A3DE /* unzip.c */,
+				A28230E61AC89C5A0096A3DE /* unzip.h */,
+				A28230E71AC89C5A0096A3DE /* zip.c */,
+				A28230E81AC89C5A0096A3DE /* zip.h */,
+			);
+			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28230ED1AC89C5A0096A3DE /* unzip.c in Sources */,
 				A20C18A11AC8930F00B9F23F /* ViewController.swift in Sources */,
 				A20C189F1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld in Sources */,
+				A28230EB1AC89C5A0096A3DE /* ioapi.c in Sources */,
+				A28230EF1AC89C5A0096A3DE /* SSZipArchive.m in Sources */,
+				A28230EE1AC89C5A0096A3DE /* zip.c in Sources */,
 				A20C189C1AC8930F00B9F23F /* AppDelegate.swift in Sources */,
+				A28230EC1AC89C5A0096A3DE /* mztools.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
