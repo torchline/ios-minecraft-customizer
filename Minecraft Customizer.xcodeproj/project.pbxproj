@@ -9,15 +9,39 @@
 /* Begin PBXBuildFile section */
 		A20C189C1AC8930F00B9F23F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C189B1AC8930F00B9F23F /* AppDelegate.swift */; };
 		A20C189F1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A20C189D1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld */; };
-		A20C18A11AC8930F00B9F23F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C18A01AC8930F00B9F23F /* ViewController.swift */; };
 		A20C18A61AC8930F00B9F23F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20C18A51AC8930F00B9F23F /* Images.xcassets */; };
-		A20C18A91AC8930F00B9F23F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20C18A71AC8930F00B9F23F /* LaunchScreen.xib */; };
 		A20C18B51AC8930F00B9F23F /* Minecraft_CustomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C18B41AC8930F00B9F23F /* Minecraft_CustomizerTests.swift */; };
+		A222EBCD1ACA3ACE00AA7B6C /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A222EBCC1ACA3ACE00AA7B6C /* AppRouter.swift */; };
+		A222EBCF1ACA453400AA7B6C /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A222EBCE1ACA453400AA7B6C /* Environment.swift */; };
 		A28230EB1AC89C5A0096A3DE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = A28230E11AC89C5A0096A3DE /* ioapi.c */; };
 		A28230EC1AC89C5A0096A3DE /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = A28230E31AC89C5A0096A3DE /* mztools.c */; };
 		A28230ED1AC89C5A0096A3DE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = A28230E51AC89C5A0096A3DE /* unzip.c */; };
 		A28230EE1AC89C5A0096A3DE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = A28230E71AC89C5A0096A3DE /* zip.c */; };
 		A28230EF1AC89C5A0096A3DE /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = A28230EA1AC89C5A0096A3DE /* SSZipArchive.m */; };
+		A28230F41AC89F720096A3DE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A28230F31AC89F720096A3DE /* libz.dylib */; };
+		A28231211AC8A1730096A3DE /* ZZAESDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = A28230F81AC8A1730096A3DE /* ZZAESDecryptInputStream.mm */; };
+		A28231221AC8A1730096A3DE /* ZZArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = A28230FA1AC8A1730096A3DE /* ZZArchive.mm */; };
+		A28231231AC8A1730096A3DE /* ZZArchiveEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A28230FC1AC8A1730096A3DE /* ZZArchiveEntry.m */; };
+		A28231241AC8A1730096A3DE /* ZZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A28231011AC8A1730096A3DE /* ZZConstants.m */; };
+		A28231251AC8A1730096A3DE /* ZZDataChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = A28231031AC8A1730096A3DE /* ZZDataChannel.m */; };
+		A28231261AC8A1730096A3DE /* ZZDataChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A28231051AC8A1730096A3DE /* ZZDataChannelOutput.m */; };
+		A28231271AC8A1730096A3DE /* ZZDeflateOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A28231081AC8A1730096A3DE /* ZZDeflateOutputStream.m */; };
+		A28231281AC8A1730096A3DE /* ZZError.m in Sources */ = {isa = PBXBuildFile; fileRef = A282310A1AC8A1730096A3DE /* ZZError.m */; };
+		A28231291AC8A1730096A3DE /* ZZFileChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = A282310C1AC8A1730096A3DE /* ZZFileChannel.m */; };
+		A282312A1AC8A1730096A3DE /* ZZFileChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A282310E1AC8A1730096A3DE /* ZZFileChannelOutput.m */; };
+		A282312B1AC8A1730096A3DE /* ZZInflateInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A28231111AC8A1730096A3DE /* ZZInflateInputStream.m */; };
+		A282312C1AC8A1730096A3DE /* ZZNewArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = A28231131AC8A1730096A3DE /* ZZNewArchiveEntry.mm */; };
+		A282312D1AC8A1730096A3DE /* ZZNewArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = A28231151AC8A1730096A3DE /* ZZNewArchiveEntryWriter.mm */; };
+		A282312E1AC8A1730096A3DE /* ZZOldArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = A28231171AC8A1730096A3DE /* ZZOldArchiveEntry.mm */; };
+		A282312F1AC8A1730096A3DE /* ZZOldArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = A28231191AC8A1730096A3DE /* ZZOldArchiveEntryWriter.mm */; };
+		A28231301AC8A1730096A3DE /* ZZStandardCryptoEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A282311B1AC8A1730096A3DE /* ZZStandardCryptoEngine.cpp */; };
+		A28231311AC8A1730096A3DE /* ZZStandardDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = A282311E1AC8A1730096A3DE /* ZZStandardDecryptInputStream.mm */; };
+		A28231321AC8A1730096A3DE /* ZZStoreOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A28231201AC8A1730096A3DE /* ZZStoreOutputStream.m */; };
+		A28231341AC8A28B0096A3DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28231331AC8A28B0096A3DE /* Foundation.framework */; };
+		A28231361AC8A2B10096A3DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28231351AC8A2B10096A3DE /* CoreGraphics.framework */; };
+		A28231391AC8A6270096A3DE /* jolicraft.zip in Resources */ = {isa = PBXBuildFile; fileRef = A28231381AC8A6270096A3DE /* jolicraft.zip */; };
+		A282313D1AC8A71E0096A3DE /* ResourcePack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A282313C1AC8A71E0096A3DE /* ResourcePack.swift */; };
+		A282313F1AC8AF190096A3DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A282313E1AC8AF190096A3DE /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +59,12 @@
 		A20C189A1AC8930F00B9F23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20C189B1AC8930F00B9F23F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A20C189E1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Minecraft_Customizer.xcdatamodel; sourceTree = "<group>"; };
-		A20C18A01AC8930F00B9F23F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A20C18A51AC8930F00B9F23F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A20C18A81AC8930F00B9F23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A20C18AE1AC8930F00B9F23F /* Minecraft CustomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minecraft CustomizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20C18B31AC8930F00B9F23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20C18B41AC8930F00B9F23F /* Minecraft_CustomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_CustomizerTests.swift; sourceTree = "<group>"; };
+		A222EBCC1ACA3ACE00AA7B6C /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppRouter.swift; path = Classes/AppRouter.swift; sourceTree = "<group>"; };
+		A222EBCE1ACA453400AA7B6C /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = Classes/Environment.swift; sourceTree = "<group>"; };
 		A28230E01AC89C5A0096A3DE /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
 		A28230E11AC89C5A0096A3DE /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
 		A28230E21AC89C5A0096A3DE /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
@@ -52,6 +76,56 @@
 		A28230E81AC89C5A0096A3DE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		A28230E91AC89C5A0096A3DE /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
 		A28230EA1AC89C5A0096A3DE /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		A28230F01AC89D560096A3DE /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		A28230F31AC89F720096A3DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A28230F61AC8A1730096A3DE /* zipzap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zipzap.h; sourceTree = "<group>"; };
+		A28230F71AC8A1730096A3DE /* ZZAESDecryptInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAESDecryptInputStream.h; sourceTree = "<group>"; };
+		A28230F81AC8A1730096A3DE /* ZZAESDecryptInputStream.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZAESDecryptInputStream.mm; sourceTree = "<group>"; };
+		A28230F91AC8A1730096A3DE /* ZZArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZArchive.h; sourceTree = "<group>"; };
+		A28230FA1AC8A1730096A3DE /* ZZArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZArchive.mm; sourceTree = "<group>"; };
+		A28230FB1AC8A1730096A3DE /* ZZArchiveEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZArchiveEntry.h; sourceTree = "<group>"; };
+		A28230FC1AC8A1730096A3DE /* ZZArchiveEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZArchiveEntry.m; sourceTree = "<group>"; };
+		A28230FD1AC8A1730096A3DE /* ZZArchiveEntryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZArchiveEntryWriter.h; sourceTree = "<group>"; };
+		A28230FE1AC8A1730096A3DE /* ZZChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZChannel.h; sourceTree = "<group>"; };
+		A28230FF1AC8A1730096A3DE /* ZZChannelOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZChannelOutput.h; sourceTree = "<group>"; };
+		A28231001AC8A1730096A3DE /* ZZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZConstants.h; sourceTree = "<group>"; };
+		A28231011AC8A1730096A3DE /* ZZConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZConstants.m; sourceTree = "<group>"; };
+		A28231021AC8A1730096A3DE /* ZZDataChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDataChannel.h; sourceTree = "<group>"; };
+		A28231031AC8A1730096A3DE /* ZZDataChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDataChannel.m; sourceTree = "<group>"; };
+		A28231041AC8A1730096A3DE /* ZZDataChannelOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDataChannelOutput.h; sourceTree = "<group>"; };
+		A28231051AC8A1730096A3DE /* ZZDataChannelOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDataChannelOutput.m; sourceTree = "<group>"; };
+		A28231061AC8A1730096A3DE /* ZZDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDataProvider.h; sourceTree = "<group>"; };
+		A28231071AC8A1730096A3DE /* ZZDeflateOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZDeflateOutputStream.h; sourceTree = "<group>"; };
+		A28231081AC8A1730096A3DE /* ZZDeflateOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZDeflateOutputStream.m; sourceTree = "<group>"; };
+		A28231091AC8A1730096A3DE /* ZZError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZError.h; sourceTree = "<group>"; };
+		A282310A1AC8A1730096A3DE /* ZZError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZError.m; sourceTree = "<group>"; };
+		A282310B1AC8A1730096A3DE /* ZZFileChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFileChannel.h; sourceTree = "<group>"; };
+		A282310C1AC8A1730096A3DE /* ZZFileChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFileChannel.m; sourceTree = "<group>"; };
+		A282310D1AC8A1730096A3DE /* ZZFileChannelOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFileChannelOutput.h; sourceTree = "<group>"; };
+		A282310E1AC8A1730096A3DE /* ZZFileChannelOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFileChannelOutput.m; sourceTree = "<group>"; };
+		A282310F1AC8A1730096A3DE /* ZZHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHeaders.h; sourceTree = "<group>"; };
+		A28231101AC8A1730096A3DE /* ZZInflateInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZInflateInputStream.h; sourceTree = "<group>"; };
+		A28231111AC8A1730096A3DE /* ZZInflateInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZInflateInputStream.m; sourceTree = "<group>"; };
+		A28231121AC8A1730096A3DE /* ZZNewArchiveEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNewArchiveEntry.h; sourceTree = "<group>"; };
+		A28231131AC8A1730096A3DE /* ZZNewArchiveEntry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZNewArchiveEntry.mm; sourceTree = "<group>"; };
+		A28231141AC8A1730096A3DE /* ZZNewArchiveEntryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNewArchiveEntryWriter.h; sourceTree = "<group>"; };
+		A28231151AC8A1730096A3DE /* ZZNewArchiveEntryWriter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZNewArchiveEntryWriter.mm; sourceTree = "<group>"; };
+		A28231161AC8A1730096A3DE /* ZZOldArchiveEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZOldArchiveEntry.h; sourceTree = "<group>"; };
+		A28231171AC8A1730096A3DE /* ZZOldArchiveEntry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZOldArchiveEntry.mm; sourceTree = "<group>"; };
+		A28231181AC8A1730096A3DE /* ZZOldArchiveEntryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZOldArchiveEntryWriter.h; sourceTree = "<group>"; };
+		A28231191AC8A1730096A3DE /* ZZOldArchiveEntryWriter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZOldArchiveEntryWriter.mm; sourceTree = "<group>"; };
+		A282311A1AC8A1730096A3DE /* ZZScopeGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZScopeGuard.h; sourceTree = "<group>"; };
+		A282311B1AC8A1730096A3DE /* ZZStandardCryptoEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZZStandardCryptoEngine.cpp; sourceTree = "<group>"; };
+		A282311C1AC8A1730096A3DE /* ZZStandardCryptoEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZStandardCryptoEngine.h; sourceTree = "<group>"; };
+		A282311D1AC8A1730096A3DE /* ZZStandardDecryptInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZStandardDecryptInputStream.h; sourceTree = "<group>"; };
+		A282311E1AC8A1730096A3DE /* ZZStandardDecryptInputStream.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZZStandardDecryptInputStream.mm; sourceTree = "<group>"; };
+		A282311F1AC8A1730096A3DE /* ZZStoreOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZStoreOutputStream.h; sourceTree = "<group>"; };
+		A28231201AC8A1730096A3DE /* ZZStoreOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZStoreOutputStream.m; sourceTree = "<group>"; };
+		A28231331AC8A28B0096A3DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A28231351AC8A2B10096A3DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A28231381AC8A6270096A3DE /* jolicraft.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = jolicraft.zip; sourceTree = "<group>"; };
+		A282313C1AC8A71E0096A3DE /* ResourcePack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcePack.swift; sourceTree = "<group>"; };
+		A282313E1AC8AF190096A3DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +133,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A282313F1AC8AF190096A3DE /* UIKit.framework in Frameworks */,
+				A28231361AC8A2B10096A3DE /* CoreGraphics.framework in Frameworks */,
+				A28231341AC8A28B0096A3DE /* Foundation.framework in Frameworks */,
+				A28230F41AC89F720096A3DE /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +156,7 @@
 				A20C18981AC8930F00B9F23F /* Minecraft Customizer */,
 				A20C18B11AC8930F00B9F23F /* Minecraft CustomizerTests */,
 				A20C18971AC8930F00B9F23F /* Products */,
+				A28231371AC8A3400096A3DE /* Frameworks */,
 				A28230DD1AC89C5A0096A3DE /* Vendors */,
 			);
 			sourceTree = "<group>";
@@ -94,11 +173,10 @@
 		A20C18981AC8930F00B9F23F /* Minecraft Customizer */ = {
 			isa = PBXGroup;
 			children = (
-				A20C189B1AC8930F00B9F23F /* AppDelegate.swift */,
-				A20C18A01AC8930F00B9F23F /* ViewController.swift */,
+				A222EBC81ACA305E00AA7B6C /* Classes */,
+				A222EBC91ACA307E00AA7B6C /* Schema */,
+				A222EBCA1ACA30A800AA7B6C /* Data */,
 				A20C18A51AC8930F00B9F23F /* Images.xcassets */,
-				A20C18A71AC8930F00B9F23F /* LaunchScreen.xib */,
-				A20C189D1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld */,
 				A20C18991AC8930F00B9F23F /* Supporting Files */,
 			);
 			path = "Minecraft Customizer";
@@ -108,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				A20C189A1AC8930F00B9F23F /* Info.plist */,
+				A28230F01AC89D560096A3DE /* Swift-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,9 +208,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A222EBC81ACA305E00AA7B6C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A20C189B1AC8930F00B9F23F /* AppDelegate.swift */,
+				A222EBCC1ACA3ACE00AA7B6C /* AppRouter.swift */,
+				A222EBCE1ACA453400AA7B6C /* Environment.swift */,
+				A222EBCB1ACA313A00AA7B6C /* Views */,
+				A282313B1AC8A68C0096A3DE /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A222EBC91ACA307E00AA7B6C /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				A20C189D1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld */,
+			);
+			name = Schema;
+			sourceTree = "<group>";
+		};
+		A222EBCA1ACA30A800AA7B6C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A28231381AC8A6270096A3DE /* jolicraft.zip */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		A222EBCB1ACA313A00AA7B6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		A28230DD1AC89C5A0096A3DE /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				A28230F51AC8A1730096A3DE /* zipzap */,
 				A28230DE1AC89C5A0096A3DE /* SSZipArchive */,
 			);
 			path = Vendors;
@@ -161,6 +276,75 @@
 				A28230E81AC89C5A0096A3DE /* zip.h */,
 			);
 			path = minizip;
+			sourceTree = "<group>";
+		};
+		A28230F51AC8A1730096A3DE /* zipzap */ = {
+			isa = PBXGroup;
+			children = (
+				A28230F61AC8A1730096A3DE /* zipzap.h */,
+				A28230F71AC8A1730096A3DE /* ZZAESDecryptInputStream.h */,
+				A28230F81AC8A1730096A3DE /* ZZAESDecryptInputStream.mm */,
+				A28230F91AC8A1730096A3DE /* ZZArchive.h */,
+				A28230FA1AC8A1730096A3DE /* ZZArchive.mm */,
+				A28230FB1AC8A1730096A3DE /* ZZArchiveEntry.h */,
+				A28230FC1AC8A1730096A3DE /* ZZArchiveEntry.m */,
+				A28230FD1AC8A1730096A3DE /* ZZArchiveEntryWriter.h */,
+				A28230FE1AC8A1730096A3DE /* ZZChannel.h */,
+				A28230FF1AC8A1730096A3DE /* ZZChannelOutput.h */,
+				A28231001AC8A1730096A3DE /* ZZConstants.h */,
+				A28231011AC8A1730096A3DE /* ZZConstants.m */,
+				A28231021AC8A1730096A3DE /* ZZDataChannel.h */,
+				A28231031AC8A1730096A3DE /* ZZDataChannel.m */,
+				A28231041AC8A1730096A3DE /* ZZDataChannelOutput.h */,
+				A28231051AC8A1730096A3DE /* ZZDataChannelOutput.m */,
+				A28231061AC8A1730096A3DE /* ZZDataProvider.h */,
+				A28231071AC8A1730096A3DE /* ZZDeflateOutputStream.h */,
+				A28231081AC8A1730096A3DE /* ZZDeflateOutputStream.m */,
+				A28231091AC8A1730096A3DE /* ZZError.h */,
+				A282310A1AC8A1730096A3DE /* ZZError.m */,
+				A282310B1AC8A1730096A3DE /* ZZFileChannel.h */,
+				A282310C1AC8A1730096A3DE /* ZZFileChannel.m */,
+				A282310D1AC8A1730096A3DE /* ZZFileChannelOutput.h */,
+				A282310E1AC8A1730096A3DE /* ZZFileChannelOutput.m */,
+				A282310F1AC8A1730096A3DE /* ZZHeaders.h */,
+				A28231101AC8A1730096A3DE /* ZZInflateInputStream.h */,
+				A28231111AC8A1730096A3DE /* ZZInflateInputStream.m */,
+				A28231121AC8A1730096A3DE /* ZZNewArchiveEntry.h */,
+				A28231131AC8A1730096A3DE /* ZZNewArchiveEntry.mm */,
+				A28231141AC8A1730096A3DE /* ZZNewArchiveEntryWriter.h */,
+				A28231151AC8A1730096A3DE /* ZZNewArchiveEntryWriter.mm */,
+				A28231161AC8A1730096A3DE /* ZZOldArchiveEntry.h */,
+				A28231171AC8A1730096A3DE /* ZZOldArchiveEntry.mm */,
+				A28231181AC8A1730096A3DE /* ZZOldArchiveEntryWriter.h */,
+				A28231191AC8A1730096A3DE /* ZZOldArchiveEntryWriter.mm */,
+				A282311A1AC8A1730096A3DE /* ZZScopeGuard.h */,
+				A282311B1AC8A1730096A3DE /* ZZStandardCryptoEngine.cpp */,
+				A282311C1AC8A1730096A3DE /* ZZStandardCryptoEngine.h */,
+				A282311D1AC8A1730096A3DE /* ZZStandardDecryptInputStream.h */,
+				A282311E1AC8A1730096A3DE /* ZZStandardDecryptInputStream.mm */,
+				A282311F1AC8A1730096A3DE /* ZZStoreOutputStream.h */,
+				A28231201AC8A1730096A3DE /* ZZStoreOutputStream.m */,
+			);
+			path = zipzap;
+			sourceTree = "<group>";
+		};
+		A28231371AC8A3400096A3DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A282313E1AC8AF190096A3DE /* UIKit.framework */,
+				A28230F31AC89F720096A3DE /* libz.dylib */,
+				A28231351AC8A2B10096A3DE /* CoreGraphics.framework */,
+				A28231331AC8A28B0096A3DE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A282313B1AC8A68C0096A3DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A282313C1AC8A71E0096A3DE /* ResourcePack.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20C18A91AC8930F00B9F23F /* LaunchScreen.xib in Resources */,
+				A28231391AC8A6270096A3DE /* jolicraft.zip in Resources */,
 				A20C18A61AC8930F00B9F23F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,13 +447,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				A28230ED1AC89C5A0096A3DE /* unzip.c in Sources */,
-				A20C18A11AC8930F00B9F23F /* ViewController.swift in Sources */,
+				A282312E1AC8A1730096A3DE /* ZZOldArchiveEntry.mm in Sources */,
+				A28231281AC8A1730096A3DE /* ZZError.m in Sources */,
+				A282312B1AC8A1730096A3DE /* ZZInflateInputStream.m in Sources */,
 				A20C189F1AC8930F00B9F23F /* Minecraft_Customizer.xcdatamodeld in Sources */,
+				A222EBCD1ACA3ACE00AA7B6C /* AppRouter.swift in Sources */,
 				A28230EB1AC89C5A0096A3DE /* ioapi.c in Sources */,
+				A28231261AC8A1730096A3DE /* ZZDataChannelOutput.m in Sources */,
+				A28231231AC8A1730096A3DE /* ZZArchiveEntry.m in Sources */,
+				A28231241AC8A1730096A3DE /* ZZConstants.m in Sources */,
+				A28231221AC8A1730096A3DE /* ZZArchive.mm in Sources */,
+				A282312D1AC8A1730096A3DE /* ZZNewArchiveEntryWriter.mm in Sources */,
+				A282312C1AC8A1730096A3DE /* ZZNewArchiveEntry.mm in Sources */,
 				A28230EF1AC89C5A0096A3DE /* SSZipArchive.m in Sources */,
+				A28231211AC8A1730096A3DE /* ZZAESDecryptInputStream.mm in Sources */,
+				A282313D1AC8A71E0096A3DE /* ResourcePack.swift in Sources */,
 				A28230EE1AC89C5A0096A3DE /* zip.c in Sources */,
+				A222EBCF1ACA453400AA7B6C /* Environment.swift in Sources */,
 				A20C189C1AC8930F00B9F23F /* AppDelegate.swift in Sources */,
+				A282312F1AC8A1730096A3DE /* ZZOldArchiveEntryWriter.mm in Sources */,
+				A28231271AC8A1730096A3DE /* ZZDeflateOutputStream.m in Sources */,
+				A282312A1AC8A1730096A3DE /* ZZFileChannelOutput.m in Sources */,
+				A28231321AC8A1730096A3DE /* ZZStoreOutputStream.m in Sources */,
+				A28231251AC8A1730096A3DE /* ZZDataChannel.m in Sources */,
 				A28230EC1AC89C5A0096A3DE /* mztools.c in Sources */,
+				A28231291AC8A1730096A3DE /* ZZFileChannel.m in Sources */,
+				A28231311AC8A1730096A3DE /* ZZStandardDecryptInputStream.mm in Sources */,
+				A28231301AC8A1730096A3DE /* ZZStandardCryptoEngine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,17 +494,6 @@
 			targetProxy = A20C18AF1AC8930F00B9F23F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A20C18A71AC8930F00B9F23F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A20C18A81AC8930F00B9F23F /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A20C18B61AC8930F00B9F23F /* Debug */ = {
@@ -390,6 +583,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Minecraft Customizer/Swift-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -401,6 +595,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Minecraft Customizer/Swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
