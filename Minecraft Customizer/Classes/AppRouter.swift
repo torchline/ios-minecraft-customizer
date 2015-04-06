@@ -9,23 +9,32 @@
 import UIKit
 
 class AppRouter {
-	class func sharedRouter() -> AppRouter {
+	class func sharedRouter() -> AppRouter? {
 		let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
 		return appDelegate.router
 	}
 	
-	private let window = UIWindow(frame: UIScreen.mainScreen().bounds)
-	private let tabBarController = UITabBarController()
+	private let window: UIWindow
+	private let tabBarController: UITabBarController
 	
 	init() {
-		self.window.backgroundColor = UIColor.whiteColor()
-		self.window.rootViewController = self.tabBarController
-		self.window.makeKeyAndVisible()
+		self.tabBarController = UITabBarController()
 		
-		self.window.addSubview(self.newPickaxeImageView())
+		self.tabBarController.viewControllers = [UIViewController(), UIViewController()]
+			
+		self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+		self.window.backgroundColor = UIColor.whiteColor()
+		
+		self.window.rootViewController = self.tabBarController
+		self.tabBarController.view.frame = self.window.bounds
+		self.window.addSubview(self.tabBarController.view)
 	}
 	
-	private func newPickaxeImageView() -> UIImageView {
+	func show() {
+		self.window.makeKeyAndVisible()
+	}
+	
+	private class func newPickaxeImageView() -> UIImageView {
 		let imageView = UIImageView(frame: CGRectMake(0, 64, 128, 128))
 		imageView.layer.magnificationFilter = kCAFilterNearest
 		

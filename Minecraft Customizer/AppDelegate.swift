@@ -10,15 +10,25 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate {
 
 	let router = AppRouter()
+	var connection: NSURLConnection?
 	
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+		self.router.show()
+		
+		let url = NSURL(string: "http://minecraftsidekick.com/api/1.0")
+		let frest = FREST(baseURL: url!)
+		
+		let fields = ["id", "name"]
+		frest.fetchResource("packs", id: "3", fields: fields) { (resource) -> Void in
+			println(resource!)
+		}
 		
 		return true
 	}
-
+	
 	func applicationWillResignActive(application: UIApplication) {
 		// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
 		// Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
